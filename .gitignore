@@ -33,4 +33,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 # Projects spesifics #
 ######################
 # any ignored files specific to the project shoul goes here
-/assets/node_modules/cd
+/assets/node_modules/

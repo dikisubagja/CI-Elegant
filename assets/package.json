@@ -4,10 +4,7 @@
   "description": "front end",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "datatables.net": "^1.10.20",
-    "datatables.net-bs": "^1.10.20",
-    "jquery": "^3.4.1"
+    "gentelella": "^1.4.0"
   },
   "devDependencies": {},
   "scripts": {

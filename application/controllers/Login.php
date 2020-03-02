@@ -8,6 +8,8 @@ class Login extends CI_Controller{
 
     public function index(){
 
+        $this->acl->test();
+
         if($this->input->post()){
             if($this->input->ip_address()){
                 if($this->input->user_agent()){
@@ -18,7 +20,6 @@ class Login extends CI_Controller{
                     $post['username'] = $this->input->post('username', TRUE);
                     $post['password'] = $this->input->post('password', TRUE);
 
-                    
                     $login = $this->model->login($post);
                     print_r($login);exit();
                     // redirect(base_url('test'));

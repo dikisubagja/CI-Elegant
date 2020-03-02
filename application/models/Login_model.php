@@ -69,7 +69,7 @@ class Login_Model extends CI_Model
                     $this->insert_activity_login($data['ipaddress']);
                 }else{
                     //delete activity login when success
-                    $this->delete_activity_login($activity_login->IPADDRESS);
+                    $this->delete_activity_login($data['ipaddress']);
                 }
             }
         }else{
